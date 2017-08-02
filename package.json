@@ -1,0 +1,18 @@
+{
+  "name": "steep-map",
+  "version": "0.0.1",
+  "description": "Hacking around the idea of showing steepness ratings along a line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dave Bouwman <dave@davebouwman.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@turf/turf": "^4.5.2",
+    "least-squares": "0.0.2",
+    "togeojson": "^0.16.0",
+    "turf": "^3.0.14",
+    "write-json-file": "^2.2.0"
+  }
+}
